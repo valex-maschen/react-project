@@ -1,3 +1,11 @@
 import React from 'react';
+import styles from './Main.module.css';
+import DownloadWindow from '../../Components/DownloadWindow/DownloadWindow';
 
-export const Main = () => <div className="Container" />;
+const Main = () => (
+    <div className={styles.Container}>
+        <DownloadWindow />
+    </div>
+);
+
+export default Main;

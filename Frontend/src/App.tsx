@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
-import { Navbar } from './Navbar/Navbar';
-import { Main } from './Pages/Main/Main';
-import { History } from './Pages/History/History';
+import Navbar from './Components/Navbar/Navbar';
+import Main from './Pages/Main/Main';
+import History from './Pages/History/History';
 
 function App() {
     return (

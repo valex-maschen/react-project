@@ -9,10 +9,6 @@
     box-shadow: 0 0 5px rgba(0,0,0,0.5)
 }
 
-.NavItem +.NavItem {
-    padding-left: 4em;
-}
-
 .NavItems {
     margin-top: 1em;
     margin-left: 2em;
@@ -33,4 +29,8 @@
 
 .NavLink:hover:active {
     color: #000;
+}
+
+.NavItemPadding {
+    padding-left: 4em;
 }
