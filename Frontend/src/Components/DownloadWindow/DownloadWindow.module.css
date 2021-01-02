@@ -1,0 +1,17 @@
+.Window {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    width: 40em;
+    height: 25em;
+    border: 2px solid rgb(186, 194, 194);
+}
+
+.Download {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    height: 2em;
+    background-color: blue;
+    border: 2px solid rgb(186, 194, 194);
+}
