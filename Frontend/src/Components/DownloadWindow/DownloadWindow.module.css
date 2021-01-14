@@ -1,3 +1,11 @@
+.Container {
+    width: 94%;
+    height: 45rem;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .Window {
     margin-left: auto;
     margin-right: auto;
@@ -8,10 +16,19 @@
 }
 
 .Download {
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em;
-    height: 2em;
-    background-color: blue;
+    margin-left: 31em; 
+    margin-top: 5em; 
+    width: 15em;
+    height: 3em;
+    background-color: rgba(80, 131, 206, 0.836);
     border: 2px solid rgb(186, 194, 194);
+    font-size: 22px;
+    font-weight: bold;
+    font-family:'Open Sans', sans-serif;
+    color: white;
+}
+
+.Download:hover{
+    background-color: rgb(77, 61, 226);
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }

@@ -8,3 +8,10 @@
     border-radius: 1em;
     box-shadow: 0 0 5px rgba(0,0,0,0.5)
 }
+
+.Main{
+    margin-left: 3em;
+    font-family:'Open Sans', sans-serif;
+    font-size: 22px;
+    color: rgb(202, 202, 202);
+}
