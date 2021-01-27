@@ -26,9 +26,10 @@
     font-weight: bold;
     font-family:'Open Sans', sans-serif;
     color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
 }
 
 .Download:hover{
     background-color: rgb(77, 61, 226);
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }

@@ -1,5 +1,11 @@
 import React from 'react';
 
-const History = () => <div />;
+const History = () => {
+    return (
+        <div>
+            <span> История </span>
+        </div>
+    );
+};
 
 export default History;
