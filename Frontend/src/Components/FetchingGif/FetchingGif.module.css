@@ -1,0 +1,44 @@
+.Container {
+    width: 94%;
+    height: 45rem;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Window {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    width: 40em;
+    height: 25em;
+    border: 2px solid rgb(186, 194, 194);
+}
+
+.Image{
+    height: 25em;
+    width: 40em;
+}
+
+.Download {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    padding-top: 0.5em;
+    width: 15em;
+    height: 3em;
+    background-color: rgba(80, 131, 206, 0.836);
+    border: 2px solid rgb(186, 194, 194);
+    font-size: 22px;
+    font-weight: bold;
+    font-family:'Open Sans', sans-serif;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.Download:hover{
+    background-color: rgb(77, 61, 226);
+}

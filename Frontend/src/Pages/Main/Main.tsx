@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from './Main.module.css';
-import DownloadWindow from '../../Components/DownloadWindow/DownloadWindow';
+import FetchingGif from '../../Components/FetchingGif/FetchingGif';
 
-const Main = () => (
-    <div className={styles.Container}>
-        <DownloadWindow />
-    </div>
-);
+const Main = () => {
+    return (
+        <div className={styles.Container}>
+            <h1 className={styles.Main}> Главная </h1>
+            <FetchingGif />
+        </div>
+    );
+};
 
 export default Main;
