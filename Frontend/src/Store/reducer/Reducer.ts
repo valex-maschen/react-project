@@ -19,7 +19,7 @@ const initialState: State = {
 };
 
 const ApiReducer = (state = initialState, action: Action) => {
-    if (action.type === DOWNLOAD_PICTURE.FETCH_DATA) {
+    if (action.type === DOWNLOAD_PICTURE.FETCH_GIF_SUCCESS) {
         return {
             ...state,
             image: action.payload
