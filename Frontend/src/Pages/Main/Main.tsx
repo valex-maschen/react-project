@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Main.module.css';
-import DownloadWindow from '../../Components/DownloadWindow/DownloadWindow';
+import FetchingData from '../../Components/DownloadWindow/FetchingData';
 
 const Main = () => {
     return (
         <div className={styles.Container}>
-            <span className={styles.Main}> Главная </span>
-            <DownloadWindow />
+            <h1 className={styles.Main}> Главная </h1>
+            <FetchingData />
         </div>
     );
 };

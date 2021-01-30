@@ -10,6 +10,8 @@
 }
 
 .Main{
+    display: flex;
+    justify-content: left;
     margin-left: 3em;
     font-family:'Open Sans', sans-serif;
     font-size: 22px;

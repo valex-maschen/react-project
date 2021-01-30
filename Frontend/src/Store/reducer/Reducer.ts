@@ -1,7 +1,7 @@
 import DOWNLOAD_PICTURE from '../actionTypes/index';
 
 type Image = {
-    url: 'string';
+    imageUrl: 'string';
     title: 'string';
     importDatetime: 'string';
 };
@@ -12,7 +12,7 @@ export type State = {
 
 type Action = {
     type: 'string';
-    payload: any;
+    payload: Image;
 };
 const initialState: State = {
     image: {} as Image
