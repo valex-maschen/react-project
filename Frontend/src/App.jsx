@@ -8,7 +8,9 @@ import Main from './Pages/Main/Main';
 import History from './Pages/History/History';
 import ApiReducer from './Store/reducer/Reducer';
 
-const store = createStore(ApiReducer, applyMiddleware(thunk));
+const { composeWithDevTools } = require('redux-devtools-extension');
+
+const store = createStore(ApiReducer, composeWithDevTools(applyMiddleware(thunk)));
 
 function App() {
     return (
