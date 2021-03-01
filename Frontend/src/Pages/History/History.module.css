@@ -1,0 +1,39 @@
+.Container{
+    width: 94%;
+    height: 50rem;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(186, 194, 194);
+    border-radius: 1em;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5)
+}
+
+.Header{
+    display: flex;
+    justify-content: left;
+    margin-left: 3em;
+    font-family:'Open Sans', sans-serif;
+    font-size: 22px;
+    color: rgb(202, 202, 202);
+}
+
+.Window{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    width: 40em;
+    height: 35em;
+    border: 2px solid rgb(186, 194, 194);
+}
+
+.Item{
+    width: 40%;
+    height: 8em;
+    border: 2px solid rgb(186, 194, 194);
+    border-radius: 1em;
+    list-style: none;
+}
+.ItemPadding{
+    margin-top: 2.5em;
+}
