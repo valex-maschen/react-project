@@ -1,0 +1,33 @@
+.Container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.Page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 26px;
+    width: 26px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transition: 0.3s border-color ease;
+}
+
+.Page + .Page {
+    margin-left: 10px;
+}
+
+.Page:hover {
+    border-color: red;
+   
+}
+
+.Page:disabled {
+    pointer-events: none;
+}
